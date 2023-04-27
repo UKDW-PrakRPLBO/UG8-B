@@ -1,12 +1,9 @@
 package ac.id.ukdw;
 
-public abstract class SummonCharacter extends Hero {
+public abstract class SummonCharacter {
 
     protected Summoner owner;
-    public SummonCharacter(String name, int health, int damage, Summoner owner) {
-        super(name, health, damage);
-        this.owner = owner;
-    }
+
 
     public void setOwner(Summoner owner) {
         this.owner = owner;
